@@ -1,7 +1,7 @@
-site_name: RedisAI - A Server for Machine and Deep Learning Models
-site_url: http://redisai.io
-repo_url: https://github.com/RedisAI/RedisAI
-repo_name: RedisAI/RedisAI
+site_name: Redis AI 
+site_url: http://redis.io
+repo_url: https://github.com/redis
+repo_name: Redis
 
 google_analytics:
   - 'UA-92003007-1'
@@ -15,7 +15,7 @@ theme:
   logo: 'images/logo_small.png'
   favicon: 'images/favicon.png'
   palette:
-    primary: 'indigo'
+    primary: 'grey'
     accent: 'red'
   font:
     text: 'Roboto'
@@ -30,14 +30,6 @@ extra_javascript:
 nav:
   - 'Home': index.md
   - 'Introduction': intro.md
-  - 'Quickstart': quickstart.md
-  - 'Commands': commands.md
-  - 'Clients': clients.md
-  - 'Configuration': configuration.md
-  - 'Developer': developer.md
-  - 'Performance': performance.md
-  - 'Examples': examples.md
-  - 'Contributing': contrib.md
 
 markdown_extensions:
   - admonition
